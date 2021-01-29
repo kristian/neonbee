@@ -1,0 +1,5 @@
+repositories {
+    maven {
+        url "http://nexus.wdf.sap.corp:8081/nexus/content/groups/build.milestones/"
+    }
+}

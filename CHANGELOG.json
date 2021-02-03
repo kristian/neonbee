@@ -1,7 +1,7 @@
 {
   "nextVersion" : {
     "major" : 0,
-    "minor" : 1,
+    "minor" : 2,
     "patch" : 0,
     "preReleaseParts" : [ "sap-0" ],
     "buildMetaDataParts" : [ ],
@@ -12,7 +12,7 @@
   },
   "lastVersion" : {
     "major" : 0,
-    "minor" : 1,
+    "minor" : 2,
     "patch" : 0,
     "preReleaseParts" : [ "sap-0" ],
     "buildMetaDataParts" : [ ],
@@ -24,6 +24,208 @@
   "tags" : [ {
     "version" : {
       "major" : 0,
+      "minor" : 2,
+      "patch" : 0,
+      "preReleaseParts" : [ "sap-0" ],
+      "buildMetaDataParts" : [ ],
+      "preRelease" : "sap-0",
+      "buildMetaData" : "",
+      "initialDevelopment" : true,
+      "stable" : false
+    },
+    "releaseDate" : "2021-02-03 15:10:30.000 +0100",
+    "sections" : [ {
+      "title" : "Bug Fixes",
+      "commits" : [ {
+        "hashFull" : "a97d0cedf2b22f20b0da9268806c5ded8df400d8",
+        "hash" : "a97d0cedf2b22f2",
+        "hash7" : "a97d0ce",
+        "hash8" : "a97d0ced",
+        "commitTime" : "2021-02-03 15:10:29.000 +0100",
+        "commitTimeLong" : 1612361429,
+        "message" : "fix: Usage of wrong verticles folder in WorkingDirectoryBuilder",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2021-02-01 12:09:48.000 +0100",
+          "name" : "Pascal Krause",
+          "email" : "pascal.krause@sap.com"
+        },
+        "committerIdent" : {
+          "when" : "2021-02-03 15:10:29.000 +0100",
+          "name" : "Sebastian Heid",
+          "email" : "sebastian.heid@sap.com"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/SAP/neonbee/commit/a97d0cedf2b22f20b0da9268806c5ded8df400d8",
+        "commitType" : "fix",
+        "commitPackage" : null,
+        "commitScope" : null,
+        "commitSubject" : "Usage of wrong verticles folder in WorkingDirectoryBuilder",
+        "commitBody" : null,
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitType" : "fix",
+        "rawCommitScope" : null,
+        "rawCommitSubject" : "Usage of wrong verticles folder in WorkingDirectoryBuilder",
+        "commitIssue" : null,
+        "localeMap" : null,
+        "messageBody" : "",
+        "messageTitle" : "fix: Usage of wrong verticles folder in WorkingDirectoryBuilder"
+      } ]
+    }, {
+      "title" : "Features",
+      "commits" : [ {
+        "hashFull" : "8d14814eb285c2d6070ccd7f815fa11974fbda5d",
+        "hash" : "8d14814eb285c2d",
+        "hash7" : "8d14814",
+        "hash8" : "8d14814e",
+        "commitTime" : "2021-01-29 11:38:26.000 +0100",
+        "commitTimeLong" : 1611916706,
+        "message" : "feat: add nexus repositories\n",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2021-01-29 11:27:51.000 +0100",
+          "name" : "Sebastian Heid",
+          "email" : "sebastian.heid@sap.com"
+        },
+        "committerIdent" : {
+          "when" : "2021-01-29 11:38:26.000 +0100",
+          "name" : "Sebastian Heid",
+          "email" : "sebastian.heid@sap.com"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/SAP/neonbee/commit/8d14814eb285c2d6070ccd7f815fa11974fbda5d",
+        "commitType" : "feat",
+        "commitPackage" : null,
+        "commitScope" : null,
+        "commitSubject" : "add nexus repositories",
+        "commitBody" : null,
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitType" : "feat",
+        "rawCommitScope" : null,
+        "rawCommitSubject" : "add nexus repositories",
+        "commitIssue" : null,
+        "localeMap" : null,
+        "messageBody" : "",
+        "messageTitle" : "feat: add nexus repositories"
+      } ]
+    }, {
+      "title" : "Continuous Integration",
+      "commits" : [ {
+        "hashFull" : "fa830ece7a40503d704e8cd4afc0e2865fb32fd3",
+        "hash" : "fa830ece7a40503",
+        "hash7" : "fa830ec",
+        "hash8" : "fa830ece",
+        "commitTime" : "2021-02-03 15:10:29.000 +0100",
+        "commitTimeLong" : 1612361429,
+        "message" : "ci: add .xmake and jenkins pipeline config\n\nThis commit contains internal configuration for build pipelines that do\nnot exist in the externally available version of NeonBee.\n\nTherefore, an open-source branch has been introduced which exactly\nmirrors the version of NeonBee from github.com. The master branch\nadditionally contains \"this\" commit, in order to make the build\npipelines on Jenkins and the xmake work properly.\n",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2021-01-29 11:27:51.000 +0100",
+          "name" : "Sebastian Heid",
+          "email" : "sebastian.heid@sap.com"
+        },
+        "committerIdent" : {
+          "when" : "2021-02-03 15:10:29.000 +0100",
+          "name" : "Sebastian Heid",
+          "email" : "sebastian.heid@sap.com"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/SAP/neonbee/commit/fa830ece7a40503d704e8cd4afc0e2865fb32fd3",
+        "commitType" : "ci",
+        "commitPackage" : null,
+        "commitScope" : null,
+        "commitSubject" : "add .xmake and jenkins pipeline config",
+        "commitBody" : "This commit contains internal configuration for build pipelines that do\nnot exist in the externally available version of NeonBee.\n\nTherefore, an open-source branch has been introduced which exactly\nmirrors the version of NeonBee from github.com. The master branch\nadditionally contains \"this\" commit, in order to make the build\npipelines on Jenkins and the xmake work properly.",
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitType" : "ci",
+        "rawCommitScope" : null,
+        "rawCommitSubject" : "add .xmake and jenkins pipeline config",
+        "commitIssue" : null,
+        "localeMap" : null,
+        "messageBody" : "This commit contains internal configuration for build pipelines that do\nnot exist in the externally available version of NeonBee.\n\nTherefore, an open-source branch has been introduced which exactly\nmirrors the version of NeonBee from github.com. The master branch\nadditionally contains \"this\" commit, in order to make the build\npipelines on Jenkins and the xmake work properly.",
+        "messageTitle" : "ci: add .xmake and jenkins pipeline config"
+      } ]
+    }, {
+      "title" : "Others",
+      "commits" : [ {
+        "hashFull" : "eacc1f67c7dfbd839c8fafa01e6e868d7e672209",
+        "hash" : "eacc1f67c7dfbd8",
+        "hash7" : "eacc1f6",
+        "hash8" : "eacc1f67",
+        "commitTime" : "2021-02-03 15:10:30.000 +0100",
+        "commitTimeLong" : 1612361430,
+        "message" : "bump(deps): Mockito to 3.7.7\n\nWith Mockito 3.7.7 it is possible to also mock static methods.",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2021-02-01 12:12:55.000 +0100",
+          "name" : "Pascal Krause",
+          "email" : "pascal.krause@sap.com"
+        },
+        "committerIdent" : {
+          "when" : "2021-02-03 15:10:30.000 +0100",
+          "name" : "Sebastian Heid",
+          "email" : "sebastian.heid@sap.com"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/SAP/neonbee/commit/eacc1f67c7dfbd839c8fafa01e6e868d7e672209",
+        "commitType" : "bump",
+        "commitPackage" : null,
+        "commitScope" : "deps",
+        "commitSubject" : "Mockito to 3.7.7",
+        "commitBody" : "With Mockito 3.7.7 it is possible to also mock static methods.",
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitType" : "bump",
+        "rawCommitScope" : "deps",
+        "rawCommitSubject" : "Mockito to 3.7.7",
+        "commitIssue" : null,
+        "localeMap" : null,
+        "messageBody" : "With Mockito 3.7.7 it is possible to also mock static methods.",
+        "messageTitle" : "bump(deps): Mockito to 3.7.7"
+      } ]
+    } ]
+  }, {
+    "version" : {
+      "major" : 0,
       "minor" : 1,
       "patch" : 0,
       "preReleaseParts" : [ "sap-0" ],
@@ -33,7 +235,7 @@
       "initialDevelopment" : true,
       "stable" : false
     },
-    "releaseDate" : "2021-01-29 10:24:49.000 +0100",
+    "releaseDate" : "2021-01-29 10:28:46.000 +0100",
     "sections" : [ {
       "title" : "Bug Fixes",
       "commits" : [ {
@@ -71,15 +273,15 @@
         "attention" : false,
         "breakingChange" : false,
         "deprecated" : false,
-        "commitIssue" : null,
-        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
         "rawCommitType" : "fix",
         "rawCommitScope" : null,
         "rawCommitSubject" : "PubKey extraction for JWT Authhandler and other fixes",
-        "messageTitle" : "fix: PubKey extraction for JWT Authhandler and other fixes",
-        "messageBody" : "With Vert.x 4.0 the way of passing public keys to the JWT AuthHandler\nhas changed. There was also a typo in NeonBeeOptions class and the order\nof Logger parameters in Deployable class was wrong."
+        "commitIssue" : null,
+        "localeMap" : null,
+        "messageBody" : "With Vert.x 4.0 the way of passing public keys to the JWT AuthHandler\nhas changed. There was also a typo in NeonBeeOptions class and the order\nof Logger parameters in Deployable class was wrong.",
+        "messageTitle" : "fix: PubKey extraction for JWT Authhandler and other fixes"
       }, {
         "hashFull" : "e60a6a3b51862aeb37310420570e0688ea37f60d",
         "hash" : "e60a6a3b51862ae",
@@ -115,15 +317,15 @@
         "attention" : false,
         "breakingChange" : false,
         "deprecated" : false,
-        "commitIssue" : null,
-        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
         "rawCommitType" : "fix",
         "rawCommitScope" : null,
         "rawCommitSubject" : "prevent UnsupportedOperationException when deploying NeonBeeModules",
-        "messageTitle" : "fix: prevent UnsupportedOperationException when deploying NeonBeeModules",
-        "messageBody" : "All model maps are stored in an unmodifiable map to ensure immutability.\nWhen a NeonBeeModule is deployed at runtime, additional models are\nregistered in this map, which causes an UnsupportedOperationException.\nThe same occurs during deregistration of module undeployment.\n\nTo avoid this exception, the unmodifiable map will be copied, changed\nand converted back to an unmodifiable map."
+        "commitIssue" : null,
+        "localeMap" : null,
+        "messageBody" : "All model maps are stored in an unmodifiable map to ensure immutability.\nWhen a NeonBeeModule is deployed at runtime, additional models are\nregistered in this map, which causes an UnsupportedOperationException.\nThe same occurs during deregistration of module undeployment.\n\nTo avoid this exception, the unmodifiable map will be copied, changed\nand converted back to an unmodifiable map.",
+        "messageTitle" : "fix: prevent UnsupportedOperationException when deploying NeonBeeModules"
       }, {
         "hashFull" : "1ed24b9f5b09609a80ccd4f4178fb7230e1e67a7",
         "hash" : "1ed24b9f5b09609",
@@ -159,15 +361,15 @@
         "attention" : false,
         "breakingChange" : false,
         "deprecated" : false,
-        "commitIssue" : null,
-        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
         "rawCommitType" : "fix",
         "rawCommitScope" : null,
         "rawCommitSubject" : "wrong hazelcast configuration version",
-        "messageTitle" : "fix: wrong hazelcast configuration version",
-        "messageBody" : "The hazelcast configuration file referred to the wrong version number."
+        "commitIssue" : null,
+        "localeMap" : null,
+        "messageBody" : "The hazelcast configuration file referred to the wrong version number.",
+        "messageTitle" : "fix: wrong hazelcast configuration version"
       } ]
     }, {
       "title" : "Features",
@@ -206,15 +408,15 @@
         "attention" : false,
         "breakingChange" : false,
         "deprecated" : false,
-        "commitIssue" : null,
-        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
         "rawCommitType" : "feat",
         "rawCommitScope" : null,
         "rawCommitSubject" : "support forward basic HTTP exceptions",
-        "messageTitle" : "feat: support forward basic HTTP exceptions",
-        "messageBody" : "This changes allows to forward basic HTTP exceptions from a DataVerticle\nto the client. At the moment 400, 403 and 404 are supported."
+        "commitIssue" : null,
+        "localeMap" : null,
+        "messageBody" : "This changes allows to forward basic HTTP exceptions from a DataVerticle\nto the client. At the moment 400, 403 and 404 are supported.",
+        "messageTitle" : "feat: support forward basic HTTP exceptions"
       } ]
     }, {
       "title" : "Build System",
@@ -253,15 +455,15 @@
         "attention" : false,
         "breakingChange" : false,
         "deprecated" : false,
-        "commitIssue" : null,
-        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
         "rawCommitType" : "build",
         "rawCommitScope" : "deps",
         "rawCommitSubject" : "downgrade `jackson` from 2.12.0 to 2.11.3",
-        "messageTitle" : "build(deps): downgrade `jackson` from 2.12.0 to 2.11.3",
-        "messageBody" : "As Vert.x 4 seems to be compiled against jackson 2.11, the dependency\nmust be downgraded, because when using jackson 2.12 some methods cannot\nbe found and produce errors."
+        "commitIssue" : null,
+        "localeMap" : null,
+        "messageBody" : "As Vert.x 4 seems to be compiled against jackson 2.11, the dependency\nmust be downgraded, because when using jackson 2.12 some methods cannot\nbe found and produce errors.",
+        "messageTitle" : "build(deps): downgrade `jackson` from 2.12.0 to 2.11.3"
       } ]
     } ]
   } ]

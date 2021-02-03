@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.2.0-sap-0 (2021-02-03)
+
+### Bug Fixes
+
+- Usage of wrong verticles folder in WorkingDirectoryBuilder ([a97d0ced](https://github.com/SAP/neonbee/commit/a97d0cedf2b22f20b0da9268806c5ded8df400d8))
+
+
+### Features
+
+- add nexus repositories ([8d14814e](https://github.com/SAP/neonbee/commit/8d14814eb285c2d6070ccd7f815fa11974fbda5d))
+
+
+### Continuous Integration
+
+- add .xmake and jenkins pipeline config ([fa830ece](https://github.com/SAP/neonbee/commit/fa830ece7a40503d704e8cd4afc0e2865fb32fd3))
+
+
+### Others
+
+- **deps**: Mockito to 3.7.7 ([eacc1f67](https://github.com/SAP/neonbee/commit/eacc1f67c7dfbd839c8fafa01e6e868d7e672209))
+
+
 ## 0.1.0-sap-0 (2021-01-29)
 
 ### Bug Fixes

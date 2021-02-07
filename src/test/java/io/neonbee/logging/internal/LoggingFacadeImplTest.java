@@ -12,6 +12,7 @@ import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.Marker;
 
+@SuppressWarnings("PMD.MoreThanOneLogger")
 public class LoggingFacadeImplTest {
     private static final String DUMMY_LOG_MSG = "HODOR {}";
 
